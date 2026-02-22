@@ -1,6 +1,6 @@
 # Mpantsaka Proxy
 
-Mpantsaka (waterbearer in MG) is a lightweight, secure CORS proxy that allows only specific **callers** and **target websites**.  
+Mpantsaka (waterbearer in MG) is a lightweight, secure CORS proxy that allows request only between specific **callers** (olona) and **target websites** (rano).  
 It is designed to work and enforces security through **environment variables**.
 
 ---
