@@ -1,14 +1,13 @@
 # Mpantsaka Proxy
 
-Mpantsaka is a lightweight, secure CORS proxy that allows only specific **callers** and **target websites**.  
-It is designed to work with **Traefik v1** and enforces security through **environment variables**.
+Mpantsaka (waterbearer in MG) is a lightweight, secure CORS proxy that allows only specific **callers** and **target websites**.  
+It is designed to work and enforces security through **environment variables**.
 
 ---
 
 ## 🚀 Features
 - Restricts which websites can call the proxy (`ALLOWED_ORIGINS`).
 - Limits which target domains can be accessed (`ALLOWED_TARGETS`).
-- Works with **Traefik v1** and auto-injects CORS headers.
 - Fast and lightweight (built with Node.js & Express).
 - Includes a simple frontend to display this README.
 
